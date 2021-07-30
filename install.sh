@@ -20,7 +20,7 @@ sudo pacman -S xorg-server xorg-xinit xorg-xbacklight xorg-xrandr xdotool \
 sudo pacman -S oh-my-zsh-git 
 
 # create pulseaudio systemd conf to start as daemon
-sudo cat > /etc/systemd/system/pulseaudio.service << EOF 
+cat > /etc/systemd/system/pulseaudio.service << EOF 
 [Unit]
 Description=Sound Service
 
